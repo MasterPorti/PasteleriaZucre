@@ -21,7 +21,7 @@
             <span>Contactanos</span>
         </div>
     </nav> 
-    <section  class='hide' id='cakeSize'>
+    <section  class='' id='cakeSize'>
         <div class="containerTitleButon">
             <span class="titleButon">¿Que tamaño de pastel necesitas?</span>
         </div> 
@@ -52,7 +52,7 @@
         </main> 
     </section>
 </div>
-    <section class="" id='firtsBiscuiit'>
+    <section class="hide " id='firtsBiscuiit'>
         <div class="containerTitleButon">
             <span class="titleButon biscocho">Escoje tu primer biscocho (puedes hasta 3)</span>
         </div> 
@@ -86,15 +86,117 @@
         </div>
     </section>
 
+    <section class="hide" id='secondBiscuiit'>
+        <div class="containerTitleButon">
+            <span class="titleButon biscocho">Escoje tu segundo biscocho (puedes hasta 3)</span>
+        </div> 
+        <main>
+            <div class="sizeCake" onclick="preSelection('fresa1')">
+                <span id="fresa1" class="o">Fresa</span>
+                <img src="./img/fresa.png">
+                <div class="buttonContainer">
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="sizeCake" onclick="preSelection('vainilla1')">
+                <span id="vainilla1" class="">Vainilla</span>
+                <img src="./img/vainilla.png">
+                <div class="buttonContainer">
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="sizeCake" onclick="preSelection('chocolate1')">
+                <span id="chocolate1" class="">Chocolate</span>
+                <img src="./img/chocolate.png">
+                <div class="buttonContainer">
+                </div>
+            </div>
+        </main> 
+        <div class="buttonContainer">
+                <div onclick="selected('secondBiscuiit')">
+                    <span>Crealo</span>
+                    <img src="./img/butonIcon.png">
+                </div>
+        </div>
+    </section>
 
+    <section class="hide " id='firtsBiscuiit'>
+        <div class="containerTitleButon">
+            <span class="titleButon biscocho">Escoje tu primer biscocho (puedes hasta 3)</span>
+        </div> 
+        <main>
+            <div class="sizeCake" onclick="preSelection('fresa')">
+                <span id="fresa" class="o">Fresa</span>
+                <img src="./img/fresa.png">
+                <div class="buttonContainer">
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="sizeCake" onclick="preSelection('vainilla')">
+                <span id="vainilla" class="">Vainilla</span>
+                <img src="./img/vainilla.png">
+                <div class="buttonContainer">
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="sizeCake" onclick="preSelection('chocolate')">
+                <span id="chocolate" class="">Chocolate</span>
+                <img src="./img/chocolate.png">
+                <div class="buttonContainer">
+                </div>
+            </div>
+        </main> 
+        <div class="buttonContainer">
+                <div onclick="selected('firtsBiscuiit')">
+                    <span>Crealo</span>
+                    <img src="./img/butonIcon.png">
+                </div>
+        </div>
+    </section>
+
+    <section class="hide" id='thirdBiscuiit'>
+        <div class="containerTitleButon">
+            <span class="titleButon biscocho">Escoje tu tercer biscocho (puedes hasta 3)</span>
+        </div> 
+        <main>
+            <div class="sizeCake" onclick="preSelection('fresa2')">
+                <span id="fresa2" class="o">Fresa</span>
+                <img src="./img/fresa.png">
+                <div class="buttonContainer">
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="sizeCake" onclick="preSelection('vainilla2')">
+                <span id="vainilla2" class="">Vainilla</span>
+                <img src="./img/vainilla.png">
+                <div class="buttonContainer">
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="sizeCake" onclick="preSelection('chocolate2')">
+                <span id="chocolate2" class="">Chocolate</span>
+                <img src="./img/chocolate.png">
+                <div class="buttonContainer">
+                </div>
+            </div>
+        </main> 
+        <div class="buttonContainer">
+                <div onclick="selected('thirdBiscuiit')">
+                    <span>Crealo</span>
+                    <img src="./img/butonIcon.png">
+                </div>
+        </div>
+    </section>
+
+    
     <section  class='hide' id='flavor'>
         <div class="containerTitleButon">
-            <span class="titleButon">¿De que sabor quieres tu pastel?</span>
+            <span class="titleButon">Escoge tu decoracion</span>
         </div> 
         <main>
             <div class="sizeCake">
                 <span>Pastel Limon</span>
-                <img src="./img/bigCake.png">
+                <img src="./img/limon.png">
                 <div class="buttonContainer">
                         <div  onclick="end('limon');">
                             <span>Limon</span>
@@ -105,7 +207,7 @@
             <div class="line"></div>
             <div class="sizeCake">
                 <span>Pastel Pequeño</span>
-                <img src="./img/smallCake.png">
+                <img src="./img/vainillaFull.png">
                 <div class="buttonContainer">
                      
                         <div  onclick="end('vainilla');">
@@ -117,6 +219,7 @@
             </div>
         </main> 
     </section>
+    
     <div id="amountChocolate"></div>
 </body>
 <script src="./js/index.js"></script>
