@@ -17,6 +17,12 @@ function size(selected){
     firtsBiscuiit.classList.toggle("hide");
 }
 
+function sizee(selected){
+    infoCake.size = selected;
+    cakeSize.classList.toggle("hide");
+    secondBiscuiit.classList.toggle("hide");
+}
+
 //El under line de los textos al seleccionarlos
 function preSelection(biscuiit){
     document.getElementById(biscuiit).classList.toggle("under")
@@ -57,7 +63,29 @@ function selected(position){
 function end(flavor){
     infoCake.flavor = flavor;
     document.getElementById('flavor').classList.toggle("hide")  
+    document.getElementById('shiping').classList.toggle("hide") 
+    if (infoCake.flavor == 'limon'){ 
+        document.getElementById('flavor-vainilla').classList.toggle("hide")
+    } else{
+        document.getElementById('flavor-limon').classList.toggle("hide")   
+    }
+    document.getElementById("textInfoCake").innerHTML = 'Biscocho: ' + infoCake.firtsBiscuiit + ', ' + infoCake.secondBiscuiit + ', ' + infoCake.thirdBiscuiit + '  ' + 'Decoracion: ' + infoCake.flavor
 }
+
+function next(){
+    document.getElementById('shiping').classList.toggle("hide") 
+    document.getElementById('idInfo').classList.toggle("hide") 
+    document.getElementById("idinfo").innerHTML = infoCake.size.charAt(0) + infoCake.firtsBiscuiit.charAt(0) + infoCake.secondBiscuiit.charAt(0) + infoCake.thirdBiscuiit.charAt(0) + infoCake.flavor.charAt(0)
+}
+
+
+// let infoCake = {   // --------> Se crea un objeto donde se va almacenar los detalles del pastel
+//     size: '',
+//     firtsBiscuiit: '',
+//     secondBiscuiit: '',
+//     thirdBiscuiit: '',
+//     flavor: ''
+// }
 
 
 

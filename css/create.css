@@ -32,3 +32,80 @@ main{
 .under{
     text-decoration: underline;
 }
+
+.conteinderShipping{
+    margin: 1vw 1vw 1vw 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteinerInfoCake{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.textInfoCake{
+    font-size: 1.5vw;
+    width: 28vw;
+    margin: 2vw 1vw 1vw 1vw;
+}
+.conteinerInfoCake img{
+    width: 10vw;
+}
+
+.form{
+    width: 55vw;
+    height: 18;
+    background-color: #D1884F;
+    border-radius: 1vw;
+}
+
+.style{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    height: 3.5vw;
+    border: none;
+    background-color: #E5D0E3;
+    margin: 1vw 1vw 1vw 1vw;
+    border-radius: 1vw;
+    text-align: center;
+}
+
+.wid1{
+    width: 30vw;
+}
+
+.wid3{
+    width: 26vw;
+}
+.wid4{
+    width: 10vw;
+}
+.wid5{
+    width: 24vw;
+}
+
+.top{
+    margin-top: 4vw;
+}
+
+.smallText{
+    font-size: 2.1vw !important;
+}
+.imgId{
+    width: 10vw;
+}
+
+.containerid{
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textId{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;    
+}

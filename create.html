@@ -42,7 +42,7 @@
                 <img src="./img/smallCake.png">
                 <div class="buttonContainer">
                      
-                        <div>
+                        <div onclick="sizee('small');">
                             <span class="small">Pequeño</span>
                             <img src="./img/butonIcon.png">
                         </div>
@@ -219,7 +219,61 @@
             </div>
         </main> 
     </section>
-    
+
+
+    <section  class='hide' id='shiping'>
+        <div class="containerTitleButon">
+            <span class="titleButon">Informacion de pedido</span>
+        </div> 
+        <div class="conteinderShipping">
+            <div class="conteinerInfoCake">
+                <img src="./img/vainillaFull.png" class="hide" id="flavor-limon">
+                <img src="./img/limon.png" class="hide" id="flavor-vainilla">
+                <span class="textInfoCake" id="textInfoCake"></span>
+            </div>
+            <div class="form">
+                <input class="style wid1" placeholder="Nombre Completo">
+                <input class="style wid2" placeholder="Codigo Postal">
+                <input class="style wid3" placeholder="Calle">
+                <input class="style wid4" placeholder="No.Interior">
+                <input class="style wid4" placeholder="No.Exteriror">
+                <input class="style wid5" placeholder="Ciudad">
+                <input class="style wid5" placeholder="Colonia">
+            </div>
+        </div>
+        <div class="buttonContainer top">
+                <div onclick="next();">
+                    <span class="smallText">Finalizar</span>
+                    <img src="./img/butonIcon.png">
+                </div>
+        </div>
+    </section>
+
+    <section  class='hide' id='idInfo'>
+        <div class="containerTitleButon">
+            <span class="titleButon">Listo!!</span>
+        </div> 
+        <div class="conteinerId">
+            <div class="containerid">
+                <img src="./img/vainillaFull.png" class="imgId">
+            </div>
+            <div class="containerid">
+                <span class="textId" >Con este ID pide tu pastel el la pasteleria</span>
+            </div>
+            <div class="containerid">
+                <span class="titleButon" id="idinfo">LVCH1</span>
+            </div>
+        </div>
+        <div class="buttonContainer top">
+            <a href="./create.html">
+                <div>
+                    <span class="smallText">Volver</span>
+                    <img src="./img/butonIcon.png">
+                </div>
+            </a>
+        </div>
+    </section>
+
     <div id="amountChocolate"></div>
 </body>
 <script src="./js/index.js"></script>
