@@ -58,7 +58,7 @@ main{
 .form{
     width: 55vw;
     height: 18;
-    background-color: #D1884F;
+    background-color: #E47C2C;
     border-radius: 1vw;
 }
 
@@ -67,7 +67,7 @@ main{
     font-size: 1.5vw;
     height: 3.5vw;
     border: none;
-    background-color: #E5D0E3;
+    background-color: #e6cbe4;
     margin: 1vw 1vw 1vw 1vw;
     border-radius: 1vw;
     text-align: center;
